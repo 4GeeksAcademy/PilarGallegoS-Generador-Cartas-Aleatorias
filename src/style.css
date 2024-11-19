@@ -1,1 +1,53 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: green;
+  margin: auto;
+}
+.card {
+  position: relative;
+  width: 250px;
+  height: 350px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+  margin: auto;
+}
+.top-symbol {
+  font-size: 80px;
+  position: absolute;
+  top: 5px;
+  left: 20px;
+}
+.bottom-symbol {
+  font-size: 80px;
+  position: absolute;
+  transform: rotate(180deg);
+  bottom: 5px;
+  right: 20px;
+}
+.number {
+  font-size: 120px;
+  font-family: Arial, sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.resizing {
+  padding-bottom: 40px;
+}
+input {
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
